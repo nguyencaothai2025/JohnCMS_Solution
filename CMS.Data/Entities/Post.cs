@@ -16,7 +16,7 @@ namespace CMS.Data.Entities
 {
     public class Post
     {
-        public int Id { get; set; }
+        public int Id { get; set; } // ma bai viet khoa chinh cua thuc the
         public string Title { get; set; } // Tiêu đề bài viết
         public string Content { get; set; } // Nội dung chi tiết
         public string ImageUrl { get; set; } // Hình ảnh đại diện
